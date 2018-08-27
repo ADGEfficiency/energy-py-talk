@@ -29,8 +29,6 @@ price response flexible demand and the lazy taxi driver
 
 energy_py = supporting experimentation 
 
----
-
 ---?color=#000000
 
 ```bash
@@ -41,7 +39,7 @@ $ python experiment.py example dqn
 $ tensorboard --logdir='./results/example/tensorboard'
 ```
 
----
+---?color=#000000
 
 ```python
 import energy_py
@@ -61,7 +59,7 @@ with tf.Session() as sess:
         )
 ```
 
----
+---?color=#000000
 
 ```python
 observation = env.reset()
@@ -82,7 +80,7 @@ while not done:
 
 details
 
----
+---?color=#000000
 
 ```python
 action_space = GlobalSpace('action').from_spaces(
@@ -99,7 +97,7 @@ discrete_spaces = action_space.discretize(20)
 action = action_space.sample_discrete()
 
 ```
----
+---?color=#000000
 
 ```python
 #  load a state or observation space from a dataset
