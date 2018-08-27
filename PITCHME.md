@@ -178,7 +178,3 @@ model based methods
 
 thank you
 
-climate
-
-energy + rl
-1. 
