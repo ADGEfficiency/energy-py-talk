@@ -31,6 +31,8 @@ energy_py = supporting experimentation
 
 ---
 
+---?color=#000000
+
 ```bash
 $ cd energy_py/experiments
 
