@@ -21,7 +21,7 @@ ml + energy solution to the climate problem
 
 ---
 
-price response flexible demand and the lazy taxi driver
+price response flexible demand 
 
 ---?image=/assets/repo.png&size=auto 100%
 
