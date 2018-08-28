@@ -14,20 +14,43 @@ Adam Green - adam.green@adgefficiency.com
 
 three pieces of info on climate
 
+Note:
+
+1. it's bad - and worse for poor countries
+2. technology is not the only solution - business models, policy, public opinion
+3. your personal choices matter
 
 ---
 
 ml + energy solution to the climate problem
 
+Note:
+
+- RL = solve the control problem
+- digitization challenge in energy
+
 ---
 
 price response flexible demand 
+
+Note:
+
+- taxi system where government ensures that no one ever waits for a taxi
+- supply of taxis == peak demand for taxis
+- cost = fixed + variable
+- the laziest taxi drivers need to recover their entire fixed + var costs through a few trips
+- flexibility solves the problem by letting people wait
+
+- responding to price (not signal from system operator)
 
 ---?image=/assets/repo.png&size=auto 100%
 
 ---
 
 energy_py = supporting experimentation 
+
+Note:
+- agents, envs, tools for experiments
 
 ---?color=#000000
 
@@ -114,6 +137,8 @@ state = state_space(steps=0)
 
 performance
 
+show picture of the tensorboard agent
+
 ---
 
 lessons
@@ -130,7 +155,6 @@ three pieces of info on energy and reinforcement learning
 
 ---?image=/assets/mcts_dqn.png&size=auto 100%
 
-> [Deep Reinforcment Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
 
 ---
 

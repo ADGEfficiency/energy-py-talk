@@ -2,51 +2,6 @@
 
 This talk reviews two years of work on energy_py - [a reinforcement learning for energy systems(https://github.com/ADGEfficiency/energy_py)].  We will look at lessons learned designing the library, experience using the library with Open AI gym and energy_py environments.  Also covered is the use of synthetic data generation in energy_py environments. 
 
----
-
-three pieces of info on climate
-1. it's bad - and worse for poor countries
-2. technology is not the solution
-3. your personal choices matter
-
-Fundamentally a discount rate problem.
-
-2. More question of climate - disproportionately on the countries who have done the least.  Climate changes in northern Europe can actually be viewed as positive (if you like longer, hotter summers.  Impact on biodiversity (if you care about animals).
-
-3. Climate is a moral problem - solved by your actions day to day.  Travel and diet.  But be compassionate towards yourself and others.
-
-Also important to acknowledge that nothing lasts forever - our grasping onto our current climate is an attachment to something that is impermanent.
-Fundamentally a discount rate problem.
-
----
-
-Motivation to learn how to use a computer = help solve the climate problem
-
-Role of reinforcement learning in energy = control
-
-advantage in energy - stuff that generates data once often generates it a lot
-because data of interest is streaming time series, once you connect to data it keeps on giving
-contrast this with a business where you get customer info on signup, and then never again (ie inactive user)
-
-disadvantage in energy - the digitisation challenge
-Every project I’ve been involved had digitisation as a key component
-This slows down learning, limits datasets, makes datasets heavily non-iid
-
----
-
-Role of demand side response 
-
-Value in demand side response = avoiding expensive standby plant.  
-
-Analogy of taxi drivers (picture)
-
-- demand side traditional vs price responsive
-- big negative is the minimum sizes, also misallocation of total secured flexibility
-
-Both batteries and demand side flex are storage
-
----
-
 energy_py = supporting experimentation 
 
 contributions = naive agents, envs, tools for experiments
