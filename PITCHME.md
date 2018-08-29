@@ -1,6 +1,6 @@
 ### energy_py
 
-lessons learnt building an energy reinforcement learning library
+two years of lessons from building an energy reinforcement learning library
 
 adgefficiency.com
 
@@ -16,9 +16,14 @@ Note:
 
 ---?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff
+
+Note:
+- this is where I learnt how to use a computer
+
 ---
 
-computation + the climate problem
+computation to help solve the climate problem
 
 Note:
 
@@ -31,7 +36,7 @@ Note:
 
 ---
 
-price response flexible demand - aka the lazy taxi driver
+price response flexible demand - the lazy taxi driver
 
 Note:
 
@@ -43,7 +48,7 @@ Note:
 
 - responding to price (not signal from system operator)
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff
+---?image=/assets/flex_env.png&size=auto 100%&color=#ffffff
 
 ---
 
@@ -57,7 +62,24 @@ flexibility as a MDP
 
 Picture of battery env and of flex env (plots)
 
+---
+
+energy_py = supporting experimentation 
+
+Note:
+- agents, envs, tools for experiments
+
 ---?color=#000000
+
+```bash
+$ cd energy_py/experiments
+
+$ python experiment.py example dqn
+
+$ tensorboard --logdir='./results/example/tensorboard'
+```
+
+---
   
 ```python
 import energy_py
@@ -75,23 +97,6 @@ with tf.Session() as sess:
         env=env,
         total_steps=1000000
     )
-```
-
----
-
-energy_py = supporting experimentation 
-
-Note:
-- agents, envs, tools for experiments
-
----?color=#000000
-
-```bash
-$ cd energy_py/experiments
-
-$ python experiment.py example dqn
-
-$ tensorboard --logdir='./results/example/tensorboard'
 ```
 
 ---
