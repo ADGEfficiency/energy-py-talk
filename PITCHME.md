@@ -22,9 +22,6 @@ Note:
 
 ---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
-Note:
-- this is where I learnt how to use a computer
-
 ---
 
 computation to help solve the climate problem
@@ -38,6 +35,19 @@ Note:
 - RL = solve the control problem
 - digitization challenge in energy
 
+
+---
+
+single agent - DDQN
+
+energy environments 
+- price arbitrage in electric battery storage 
+- price responsive flexible electricity demand
+
+wrappers around `gym` envs
+
+tools for experimentation
+
 ---
 
 price response flexible demand - the lazy taxi driver
@@ -49,10 +59,9 @@ Note:
 - cost = fixed + variable
 - the laziest taxi drivers need to recover their entire fixed + var costs through a few trips
 - flexibility solves the problem by letting people wait
-
 - responding to price (not signal from system operator)
 
----?image=/assets/flex_env.png&size=auto 100%&color=#ffffff
+---?image=/assets/flex_env.png&size=auto 80%&color=#ffffff
 
 ---
 
@@ -62,16 +71,7 @@ flexibility as a MDP
 - action = flex up, flex down or no-op (discrete)
 - reward = cost to supply electricity
 
----
-
-Picture of battery env and of flex env (plots)
-
----
-
-energy_py = supporting experimentation 
-
-Note:
-- agents, envs, tools for experiments
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
 ---?color=#000000
 
