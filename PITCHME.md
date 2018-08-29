@@ -156,7 +156,7 @@ discrete_spaces = action_space.discretize(20)
 action = action_space.sample_discrete()
 
 ```
----&color=#000000
+---?color=#000000
 
 ```python
 #  load a state or observation space from a dataset
@@ -218,7 +218,7 @@ but if you have simulation, then there are other better models such as MCTS
 Deep Reinforcement Learning Doesn't Work Yet - Alex Irpan
 @snapend
 
----&color=#000000
+---?color=#000000
 
 ```python
 """ backwards induction """
