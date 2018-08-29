@@ -62,6 +62,17 @@ $ python experiment.py example dqn
 $ tensorboard --logdir='./results/example/tensorboard'
 ```
 
+show config files?
+
+---?image=/assets/repo.png&size=auto 100%
+
+---
+
+performance
+
+- show picture of the tensorboard agent graph
+- show learning curves (cartpole, mountain car)
+
 ---?color=#000000
 
 ```python
@@ -79,7 +90,7 @@ with tf.Session() as sess:
         agent_id='dqn',
         env=env,
         total_steps=1000000
-        )
+    )
 ```
 
 ---?color=#000000
@@ -103,20 +114,29 @@ while not done:
 
 details
 
+Note:
+- space design is fundamental to the library 
+- code that interacts both with agents and environments
+
 ---?color=#000000
 
 ```python
+#  create an action space of two dimensions
 action_space = GlobalSpace('action').from_spaces(
     [ContinuousSpace(0, 100), DiscreteSpace(3)],
     ['acceleration', 'gear']
 )
 
+#  randomly sample an action
 action = action_space.sample()
 
+#  check the action is valid
 assert action_space.contains(action)
 
+#  discretize the space
 discrete_spaces = action_space.discretize(20)
 
+#  randomly sample a discrete action
 action = action_space.sample_discrete()
 
 ```
@@ -135,17 +155,16 @@ state = state_space(steps=0)
 
 ---
 
-performance
+most important lesson = simplicity
 
-show picture of the tensorboard agent
-
----
-
-lessons
-
----
-
-simplicity
+Note:
+- two bad implementations don't equal one good one
+- solving specific problems here - DQN works because of discretizable action spaces (don't combine high dimensional actions)
+- can develop library to take advantage of it
+- a master and dev branch
+- single inheritance
+- use standard library where possible 
+- use tensorflow where possible (processors, schedulers etc)
 
 ---
 
@@ -153,38 +172,43 @@ three pieces of info on energy and reinforcement learning
 
 ---
 
+the environment model problem / oppourtunity
+
+Note:
+- modern rl so sample inefficient that you need simualtion
+but if you have simulation, then there are other better models such as MCTS
+
+- the work in energy is therefore in building useful simulation models - this unlocks both
+
+- Backwards induction = Allows measuring the quality of forecasts (when the model is wrong)
+
 ---?image=/assets/mcts_dqn.png&size=auto 100%
-
-
----
-
-current performance (show the image of the really smooth learning - don't think this is good (looks like rollout memorization)
 
 ---
 
 synthetic data - aka poor mans GANS
 
----
+Note:
+
+- possible to generate synthetic rollouts for time series data (ie demands, prices etc)
+- these synthetic rollouts allow testing of performance of the agent on rollouts it's never seen
+- generating exact customer profiles is hard - generating believable profiles is easier
 
 ---
 
-the environment model problem / oppourtunity
-
----
-
-combining with supervised learning
+TODO
 
 ---
 
 **short term work**
 
-loading memories
-
-test and train expts
-
 early stopping
 
++
+
 experiment result analysis
+
++
 
 backwards induction
 
@@ -198,7 +222,22 @@ wrapping other environments
 
 model based methods 
 
++
+
+integrating with `google/dopamine`
+
 ---
+
+climate
+
+1.
+2.
+3.
+
+energy + rl
+
+1. the environment model problem/opportunity
+2. synthetic data to test generalization
 
 thank you
 
