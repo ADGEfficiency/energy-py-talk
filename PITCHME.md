@@ -204,48 +204,24 @@ Note:
 
 ---
 
-TODO
-
----
-
 **short term work**
-
+<br><br>
 early stopping
-
-+
-
+<br><br>
 experiment result analysis
-
-+
-
+<br><br>
 backwards induction
 
 ---
 
 **long term work**
-
+<br><br>
 wrapping other environments
-
-+
-
+<br><br>
 model based methods 
-
-+
-
+<br><br>
 integrating with `google/dopamine`
 
 ---
 
-climate
-
-1.
-2.
-3.
-
-energy + rl
-
-1. the environment model problem/opportunity
-2. synthetic data to test generalization
-
 thank you
-
