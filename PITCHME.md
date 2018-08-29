@@ -108,17 +108,13 @@ with tf.Session() as sess:
     )
 ```
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff
+---?image=/assets/tb.png&size=auto 100%&color=#ffffff
 
+---
 
 show learning curves (cartpole + battery + flex)
 +
 some interesting plots from tb
-
-
-
-
----?color=#000000
 
 ---
 
