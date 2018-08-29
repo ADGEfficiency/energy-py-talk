@@ -6,7 +6,7 @@ Adam Green - adam.green@adgefficiency.com
 
 ---?image=/assets/humber.jpg&size=auto 100%
 
----?image=/assets/humber_excel.png&size=auto 100%
+---?image=/assets/humber_excel.png&size=auto 100%&color=#ffffff
 
 ---?image=/assets/climate.png&size=auto 80%
 
@@ -74,7 +74,7 @@ performance
 - show learning curves (cartpole, mountain car)
 
 ---?color=#000000
-
+  
 ```python
 import energy_py
 
@@ -185,6 +185,10 @@ but if you have simulation, then there are other better models such as MCTS
 - Backwards induction = Allows measuring the quality of forecasts (when the model is wrong)
 
 ---?image=/assets/mcts_dqn.png&size=auto 50%&color=#ffffff
+
+@snap[south]
+Deep Reinforcement Learning Doesn't Work Yet - Alex Irpan
+@snapend
 
 ---
 
