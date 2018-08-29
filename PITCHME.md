@@ -110,9 +110,11 @@ with tf.Session() as sess:
 
 ---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff
 
+average over 5 random seeds
+
 ---
 
-battery (old runs)
+---?image=/assets/battery.png&size=auto 80%&color=#ffffff
 
 ---
 
