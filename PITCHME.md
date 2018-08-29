@@ -43,7 +43,7 @@ Note:
 
 - responding to price (not signal from system operator)
 
----?image=/assets/repo.png&size=auto 100%
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
 ---
 
