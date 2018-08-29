@@ -108,15 +108,7 @@ with tf.Session() as sess:
 
 ---?image=/assets/tb.png&size=auto 80%&color=#ffffff
 
----
-
-show learning curves - cartpole 
-
-rew 100
-
-loss
-
-bellman eqn
+---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff
 
 ---
 
@@ -187,9 +179,7 @@ sample inefficient
 <br><br>
 simplicity
 <br><br>
-small discount rate can help with Bellman blowups
-<br><br>
-larger batch sizes
+iterative design
 
 Note:
 - two bad implementations don't equal one good one
