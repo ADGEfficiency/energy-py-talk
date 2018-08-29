@@ -2,17 +2,23 @@
 
 lessons learnt building an energy reinforcement learning library
 
-Adam Green - adam.green@adgefficiency.com
+adgefficiency.com
 
 ---?image=/assets/humber.jpg&size=auto 100%
 
+Note:
+- this place was where I learnt energy engineering
+
 ---?image=/assets/humber_excel.png&size=auto 100%&color=#ffffff
 
----?image=/assets/climate.png&size=auto 80%
+Note:
+- this was where I learn the power of a computer
+
+---?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
 ---
 
-three pieces of info on climate
+computation + the climate problem
 
 Note:
 
@@ -20,18 +26,12 @@ Note:
 2. technology is not the only solution - business models, policy, public opinion
 3. your personal choices matter
 
----
-
-ml + energy solution to the climate problem
-
-Note:
-
 - RL = solve the control problem
 - digitization challenge in energy
 
 ---
 
-price response flexible demand 
+price response flexible demand - aka the lazy taxi driver
 
 Note:
 
@@ -44,6 +44,14 @@ Note:
 - responding to price (not signal from system operator)
 
 ---?image=/assets/repo.png&size=auto 100%&color=#ffffff
+
+---
+
+flexibility as a MDP
+
+- state = current + forecast electricity prices, customer demands
+- action = flex up, flex down or no-op (discrete)
+- reward = cost to supply electricity
 
 ---
 
@@ -143,6 +151,7 @@ state = state_space(steps=0)
 
 lessons
 - simplicity
+- RL is hard and unstable
 - small discount rate can help with Bellman blowups
 - larger batch sizes
 
