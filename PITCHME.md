@@ -218,8 +218,6 @@ but if you have simulation, then there are other better models such as MCTS
 Deep Reinforcement Learning Doesn't Work Yet - Alex Irpan
 @snapend
 
----
-
 ---&color=#000000
 
 ```python
