@@ -182,7 +182,7 @@ but if you have simulation, then there are other better models such as MCTS
 
 - Backwards induction = Allows measuring the quality of forecasts (when the model is wrong)
 
----?image=/assets/mcts_dqn.png&size=auto 80%
+---?image=/assets/mcts_dqn.png&size=auto 50%&color=#000000
 
 ---
 
