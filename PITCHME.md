@@ -80,6 +80,8 @@ Note:
 
 ---?color=#000000
 
+@div[left-50]
+<br><br>
 ```bash
 $ cd energy_py/experiments
 
@@ -87,9 +89,9 @@ $ python experiment.py example dqn
 
 $ tensorboard --logdir='./results/example/tensorboard'
 ```
+@divend
 
----?color=#000000
-  
+@div[right-50]
 ```python
 import energy_py
 
@@ -107,6 +109,7 @@ with tf.Session() as sess:
         total_steps=1000000
     )
 ```
+@divend
 
 ---?image=/assets/tb.png&size=auto 100%&color=#ffffff
 
