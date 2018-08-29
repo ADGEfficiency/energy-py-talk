@@ -108,12 +108,14 @@ with tf.Session() as sess:
     )
 ```
 
----
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
-performance
 
-- show picture of the tensorboard agent graph
-- show learning curves (cartpole + battery + flex)
+show learning curves (cartpole + battery + flex)
++
+some interesting plots from tb
+
+
 
 
 ---?color=#000000
