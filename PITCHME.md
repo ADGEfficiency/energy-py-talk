@@ -8,6 +8,20 @@ two years of lessons building an energy reinforcement learning library
 
 adgefficiency.com
 
+---
+
+**agenda**
+<br><br>
+motivation
+<br><br>
+API + performance
+<br><br>
+lessons
+<br><br>
+next steps
+
+---
+
 ---?image=/assets/humber.jpg&size=auto 100%
 
 Note:
@@ -38,13 +52,9 @@ Note:
 
 ---
 
-single agent - DDQN
+single DQN agent
 
-energy environments 
-- price arbitrage in electric battery storage 
-- price responsive flexible electricity demand
-
-wrappers around `gym` envs
+energy environments + wrappers around `gym`
 
 tools for experimentation
 
@@ -68,8 +78,6 @@ Note:
 - action = flex up, flex down or no-op (discrete)
 - reward = cost to supply electricity
 
----
-
 ---?color=#000000
 
 ```bash
@@ -80,7 +88,7 @@ $ python experiment.py example dqn
 $ tensorboard --logdir='./results/example/tensorboard'
 ```
 
----
+---?color=#000000
   
 ```python
 import energy_py
@@ -155,11 +163,21 @@ state = state_space(steps=0)
 
 ---
 
+**rl today**
+
+hard
+<br><br>
+unstable 
+<br><br>
+sample inefficient
+<br><br>
+**exciting**
+
+---
+
 **lessons**
 <br><br>
 simplicity
-<br><br>
-RL is hard and unstable
 <br><br>
 small discount rate can help with Bellman blowups
 <br><br>
@@ -215,6 +233,8 @@ backwards induction
 ---
 
 **long term work**
+<br><br>
+a fourth complete rebuild
 <br><br>
 wrapping other environments
 <br><br>
