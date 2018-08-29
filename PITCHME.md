@@ -155,11 +155,15 @@ state = state_space(steps=0)
 
 ---
 
-lessons
-- simplicity
-- RL is hard and unstable
-- small discount rate can help with Bellman blowups
-- larger batch sizes
+**lessons**
+<br><br>
+simplicity
+<br><br>
+RL is hard and unstable
+<br><br>
+small discount rate can help with Bellman blowups
+<br><br>
+larger batch sizes
 
 Note:
 - two bad implementations don't equal one good one
