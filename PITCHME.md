@@ -202,10 +202,6 @@ but if you have simulation, then there are other better models such as MCTS
 
 ---?image=/assets/mcts_dqn.png&size=auto 50%&color=#ffffff
 
-@snap[south]
-Deep Reinforcement Learning Doesn't Work Yet - Alex Irpan
-@snapend
-
 ---?color=#000000
 
 backwards induction
