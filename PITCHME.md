@@ -20,8 +20,6 @@ lessons
 <br><br>
 next steps
 
----
-
 ---?image=/assets/humber.jpg&size=auto 100%
 
 Note:
@@ -53,14 +51,16 @@ Note:
 ---
 
 single DQN agent
-
+<br><br>
 energy environments + wrappers around `gym`
-
+<br><br>
 tools for experimentation
 
 ---
 
-price response flexible demand - the lazy taxi driver
+price response flexible demand 
+<br><br>
+aka the lazy taxi driver
 
 Note:
 
@@ -219,6 +219,28 @@ Deep Reinforcement Learning Doesn't Work Yet - Alex Irpan
 @snapend
 
 ---
+```python
+previous_state_payoffs = {state: 0 for state in model.states}
+
+for step in steps[::-1]:
+    state_actions = model.state_actions
+    
+    viable_transitions = []
+    for next_state in model.states:
+        viable_transitions.extend(get_viable_transitions(step, next_state, model))
+    
+    new_state_payoffs = defaultdict(list)
+    
+    for t in viable_transitions:
+        payoff = t.reward + previous_state_payoffs[t.next_state]
+        new_state_payoffs[t.state].append(payoff)
+        
+    for k, v in new_state_payoffs.items():
+        new_state_payoffs[k] = np.max(v)
+    
+    previous_state_payoffs = new_state_payoffs
+```
+---
 
 synthetic data - aka poor mans GANS
 
@@ -227,6 +249,10 @@ Note:
 - possible to generate synthetic rollouts for time series data (ie demands, prices etc)
 - these synthetic rollouts allow testing of performance of the agent on rollouts it's never seen
 - generating exact customer profiles is hard - generating believable profiles is easier
+
+---
+
+---?image=/assets/syn.png&size=auto 50%&color=#ffffff
 
 ---
 
