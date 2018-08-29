@@ -110,9 +110,21 @@ with tf.Session() as sess:
 
 ---
 
-show learning curves (cartpole + battery + flex)
-+
-some interesting plots from tb
+show learning curves - cartpole 
+
+rew 100
+
+loss
+
+bellman eqn
+
+---
+
+battery (old runs)
+
+---
+
+flex - new runs
 
 ---
 
