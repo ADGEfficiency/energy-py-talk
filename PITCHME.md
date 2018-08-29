@@ -176,10 +176,6 @@ Note:
 
 ---
 
-three pieces of info on energy and reinforcement learning
-
----
-
 the environment model problem / oppourtunity
 
 Note:
