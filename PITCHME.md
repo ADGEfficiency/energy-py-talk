@@ -155,7 +155,9 @@ state = state_space(steps=0)
 
 ---
 
-most important lesson = simplicity
+lessons
+- simplicity
+- tune discount rate
 
 Note:
 - two bad implementations don't equal one good one
