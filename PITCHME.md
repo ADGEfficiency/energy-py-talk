@@ -110,12 +110,10 @@ with tf.Session() as sess:
 
 ---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff
 
----
+---?image=/assets/battery.png&size=auto 80%&color=#ffffff
 @snap[north]
 average over 5 random seeds
 @snapend
-
----?image=/assets/battery.png&size=auto 80%&color=#ffffff
 
 ---
 
