@@ -156,7 +156,7 @@ discrete_spaces = action_space.discretize(20)
 action = action_space.sample_discrete()
 
 ```
----?color=#000000
+---&color=#000000
 
 ```python
 #  load a state or observation space from a dataset
@@ -254,8 +254,6 @@ Note:
 - possible to generate synthetic rollouts for time series data (ie demands, prices etc)
 - these synthetic rollouts allow testing of performance of the agent on rollouts it's never seen
 - generating exact customer profiles is hard - generating believable profiles is easier
-
----
 
 ---?image=/assets/syn.png&size=auto 50%&color=#ffffff
 
