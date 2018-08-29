@@ -227,9 +227,7 @@ backwards induction
 previous_state_payoffs = {state: 0 for state in model.states}
 
 for step in steps[::-1]:
-    viable_transitions = []
-    for next_state in model.states:
-        viable_transitions.extend(get_viable_transitions(step, next_state, model))
+    viable_transitions = [get_viable_transitions(step, next_state, model) for next_state in model.states]
     
     new_state_payoffs = defaultdict(list)
     
