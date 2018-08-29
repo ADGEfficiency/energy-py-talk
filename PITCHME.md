@@ -47,31 +47,7 @@ Note:
 
 ---
 
-energy_py = supporting experimentation 
-
-Note:
-- agents, envs, tools for experiments
-
----?color=#000000
-
-```bash
-$ cd energy_py/experiments
-
-$ python experiment.py example dqn
-
-$ tensorboard --logdir='./results/example/tensorboard'
-```
-
-show config files?
-
----?image=/assets/repo.png&size=auto 100%
-
----
-
-performance
-
-- show picture of the tensorboard agent graph
-- show learning curves (cartpole, mountain car)
+Picture of battery env and of flex env (plots)
 
 ---?color=#000000
   
@@ -93,22 +69,32 @@ with tf.Session() as sess:
     )
 ```
 
+---
+
+energy_py = supporting experimentation 
+
+Note:
+- agents, envs, tools for experiments
+
 ---?color=#000000
 
-```python
-observation = env.reset()
-done = False
+```bash
+$ cd energy_py/experiments
 
-while not done:
+$ python experiment.py example dqn
 
-    action = agent.act(observation)
-
-    next_observation, reward, done, info = env.step(action)
-
-    training_info = agent.learn()
-
-    observation = next_observation
+$ tensorboard --logdir='./results/example/tensorboard'
 ```
+
+---
+
+performance
+
+- show picture of the tensorboard agent graph
+- show learning curves (cartpole + battery + flex)
+
+
+---?color=#000000
 
 ---
 
@@ -157,7 +143,8 @@ state = state_space(steps=0)
 
 lessons
 - simplicity
-- tune discount rate
+- small discount rate can help with Bellman blowups
+- larger batch sizes
 
 Note:
 - two bad implementations don't equal one good one
