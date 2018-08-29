@@ -172,7 +172,7 @@ state = state_space(steps=0)
 ---
 
 **rl today**
-
+<br><br>
 hard
 <br><br>
 unstable 
@@ -220,6 +220,8 @@ Deep Reinforcement Learning Doesn't Work Yet - Alex Irpan
 
 ---
 ```python
+""" backwards induction """
+
 previous_state_payoffs = {state: 0 for state in model.states}
 
 for step in steps[::-1]:
