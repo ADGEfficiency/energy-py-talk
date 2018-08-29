@@ -1,6 +1,10 @@
 ### energy_py
 
-two years of lessons from building an energy reinforcement learning library
+<br><br>
+
+two years of lessons building an energy reinforcement learning library
+
+<br><br>
 
 adgefficiency.com
 
