@@ -63,15 +63,12 @@ Note:
 
 ---?image=/assets/flex_env.png&size=auto 80%&color=#ffffff
 
----
-
-flexibility as a MDP
-
+Note:
 - state = current + forecast electricity prices, customer demands
 - action = flex up, flex down or no-op (discrete)
 - reward = cost to supply electricity
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff
+---
 
 ---?color=#000000
 
