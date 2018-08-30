@@ -1,6 +1,6 @@
 ### energy_py
 <br><br>
-two years of lessons building an energy reinforcement learning library
+lessons learnt building an energy reinforcement learning library
 <br><br>
 adgefficiency.com
 
@@ -28,8 +28,6 @@ Note:
 
 ---?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff
-
 ---
 
 computation to help solve the climate problem
@@ -43,6 +41,9 @@ Note:
 - RL = solve the control problem
 - digitization challenge in energy
 
+---
+
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
 ---
 
@@ -104,7 +105,11 @@ with tf.Session() as sess:
 
 ---?image=/assets/tb.png&size=auto 80%&color=#ffffff
 
+### Performance on Cartpole
+
 ---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff
+
+### Performance on battery storage
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff
 
