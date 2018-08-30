@@ -105,13 +105,13 @@ with tf.Session() as sess:
 
 ---?image=/assets/tb.png&size=auto 80%&color=#ffffff
 
+---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff&position=bottom
+
 ### Performance on Cartpole
 
----?image=/assets/cartpole.png&size=auto 80%&color=#ffffff
+---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
 ### Performance on battery storage
-
----?image=/assets/battery.png&size=auto 80%&color=#ffffff
 
 ---
 
