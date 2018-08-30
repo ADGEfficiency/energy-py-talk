@@ -41,17 +41,19 @@ Note:
 - RL = solve the control problem
 - digitization challenge in energy
 
----
-
 ---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
 ---
 
-single DQN agent
+DQN + naive agents
 <br><br>
 energy environments + wrappers around `gym`
 <br><br>
 tools for experimentation
+
+Note:
+- DQN becuase of discretizable action spaces
+- experimentation because this is what needs to be done
 
 ---
 
