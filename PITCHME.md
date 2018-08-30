@@ -107,11 +107,15 @@ with tf.Session() as sess:
 
 ---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff&position=bottom
 
+@snap[north]
 ### Performance on Cartpole
+@snapend
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
+@snap[north]
 ### Performance on battery storage
+@snapend
 
 ---
 
