@@ -114,12 +114,8 @@ with tf.Session() as sess:
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
 @snap[north]
-Performance on battery storage
+<font color="black">Battery storage</font>
 @snapend
-
----
-
-flex - new runs
 
 ---
 
