@@ -107,7 +107,9 @@ with tf.Session() as sess:
 
 ---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff&position=bottom
 
-Performance on Cartpole
+@snap[north]
+<font color="black">Performance on Cartpole</font>
+@snapend
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
