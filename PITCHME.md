@@ -1,4 +1,4 @@
-### energy_py
+**energy_py**
 <br><br>
 lessons learnt building an energy reinforcement learning library
 <br><br>
