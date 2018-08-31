@@ -1,3 +1,7 @@
 theme : night
 highlight : tomorrow-night-bright
 theme-override : assets/PITCHME.css
+
+background : assets/logo.png
+background-position : left top
+background-size : 150px auto

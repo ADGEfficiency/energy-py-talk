@@ -19,17 +19,25 @@ next steps
 ---?image=/assets/humber.jpg&size=auto 100%
 
 Note:
+- two years ago I made the transition into data
+- three years before that I made the transition from uni into energy
+
 - this place was where I learnt energy engineering
 
 ---?image=/assets/humber_excel.png&size=auto 100%&color=#ffffff
 
 Note:
+- the reason i introduce this place is because of the MILP model I built to optimize this site
+
 - this was where I learn the power of a computer
 
 ---
+
 computation to help solve the control problem
 
 computation to help solve the climate problem
+
+---?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
 Note:
 
@@ -39,8 +47,6 @@ Note:
 
 - RL = solve the control problem
 - digitization challenge in energy
-
----?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
 ---
 
@@ -240,16 +246,6 @@ Note:
 - generating exact customer profiles is hard - generating believable profiles is easier
 
 ---?image=/assets/syn.png&size=auto 50%&color=#ffffff
-
----
-
-**short term work**
-<br><br>
-early stopping
-<br><br>
-experiment result analysis
-<br><br>
-backwards induction
 
 ---
 
