@@ -26,10 +26,7 @@ Note:
 Note:
 - this was where I learn the power of a computer
 
----?image=/assets/climate.png&size=auto 80%&color=#ffffff
-
 ---
-
 computation to help solve the climate problem
 
 Note:
@@ -40,6 +37,8 @@ Note:
 
 - RL = solve the control problem
 - digitization challenge in energy
+
+---?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
 ---
 
