@@ -41,20 +41,6 @@ Note:
 - RL = solve the control problem
 - digitization challenge in energy
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff
-
----
-
-DQN + naive agents
-<br><br>
-energy environments + wrappers around `gym`
-<br><br>
-tools for experimentation
-
-Note:
-- DQN becuase of discretizable action spaces
-- experimentation because this is what needs to be done
-
 ---
 
 price response flexible demand 
@@ -76,6 +62,21 @@ Note:
 - state = current + forecast electricity prices, customer demands
 - action = flex up, flex down or no-op (discrete)
 - reward = cost to supply electricity
+
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff
+
+---
+
+DQN + naive agents
+<br><br>
+energy environments + wrappers around `gym`
+<br><br>
+tools for experimentation
+
+Note:
+- DQN becuase of discretizable action spaces
+- experimentation because this is what needs to be done
+
 
 ---?color=#000000
 ```bash
