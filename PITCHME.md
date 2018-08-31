@@ -27,6 +27,8 @@ Note:
 - this was where I learn the power of a computer
 
 ---
+computation to help solve the control problem
+
 computation to help solve the climate problem
 
 Note:
