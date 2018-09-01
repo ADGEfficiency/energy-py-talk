@@ -4,8 +4,6 @@ lessons learnt building an energy reinforcement learning library
 <br><br>
 adgefficiency.com
 
-https://help.github.com/articles/removing-sensitive-data-from-a-repository/
-
 ---
 
 **agenda**
