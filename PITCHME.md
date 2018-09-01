@@ -4,6 +4,8 @@ lessons learnt building an energy reinforcement learning library
 <br><br>
 adgefficiency.com
 
+https://help.github.com/articles/removing-sensitive-data-from-a-repository/
+
 ---
 
 **agenda**
@@ -62,6 +64,16 @@ Note:
 - the laziest taxi drivers need to recover their entire fixed + var costs through a few trips
 - flexibility solves the problem by letting people wait
 - responding to price (not signal from system operator)
+- need wholesale market
+
+---
+
+flexibility as an MDP (pic)
+
+also use to introduce the basic MDP framework (maximizing scalra reward etc, put in the MDP tuple too!)
+
+
+---
 
 ---?image=/assets/flex_env.png&size=auto 80%&color=#ffffff
 
@@ -69,6 +81,7 @@ Note:
 - state = current + forecast electricity prices, customer demands
 - action = flex up, flex down or no-op (discrete)
 - reward = cost to supply electricity
+- well defined reward signal
 
 ---?image=/assets/repo.png&size=auto 100%&color=#ffffff
 
@@ -86,6 +99,8 @@ Note:
 
 
 ---?color=#000000
+High level API
+
 ```bash
 $ cd energy_py/experiments
 
@@ -95,6 +110,8 @@ $ tensorboard --logdir='./results/example/tensorboard'
 ```
 
 ---?color=#000000
+Low level API
+
 ```python
 import energy_py
 
@@ -109,7 +126,8 @@ with tf.Session() as sess:
         sess=sess,
         agent_id='dqn',
         env=env,
-        total_steps=1000000
+        total_steps=1000000,
+        batch_size=1024,
     )
 ```
 
@@ -132,6 +150,14 @@ with tf.Session() as sess:
 details
 
 Note:
+- two bad implementations don't equal one good one
+- solving specific problems here - DQN works because of discretizable action spaces (don't combine high dimensional actions)
+- can develop library to take advantage of it
+- a master and dev branch
+- single inheritance
+- use standard library where possible 
+- use tensorflow where possible (processors, schedulers etc)
+
 - space design is fundamental to the library 
 - code that interacts both with agents and environments
 
@@ -184,24 +210,9 @@ sample inefficient
 
 ---
 
-**lessons**
-<br><br>
-simplicity
-<br><br>
-iterative design
-
-Note:
-- two bad implementations don't equal one good one
-- solving specific problems here - DQN works because of discretizable action spaces (don't combine high dimensional actions)
-- can develop library to take advantage of it
-- a master and dev branch
-- single inheritance
-- use standard library where possible 
-- use tensorflow where possible (processors, schedulers etc)
-
----
-
 the environment model problem / oppourtunity
+
+PUT IN BIT ABOUT WHAT A MODEL IS sa -> r, s'
 
 Note:
 - modern rl so sample inefficient that you need simualtion
@@ -212,6 +223,9 @@ but if you have simulation, then there are other better models such as MCTS
 - Backwards induction = Allows measuring the quality of forecasts (when the model is wrong)
 
 ---?image=/assets/mcts_dqn.png&size=auto 80%&color=#ffffff
+
+Note:
+- UCT = upper confidence bound applied to trees
 
 ---?color=#000000
 
