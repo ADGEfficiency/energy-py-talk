@@ -3,6 +3,8 @@
 lessons learnt building an energy reinforcement learning library
 <br><br>
 www.adgefficiency.com
+<br><br>
+Tempus Energy
 
 ---
 
