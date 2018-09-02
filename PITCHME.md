@@ -243,7 +243,7 @@ for step in steps[::-1]:
     previous_state_payoffs = new_state_payoffs
 ```
 
----?image=/assets/world_models_lit.png&size=auto 70%&color=#ffffff&position=center
+---?image=/assets/world_models_lit.png&size=auto 50%&color=#ffffff&position=center
 
 ---?image=/assets/world_models_env.png&size=auto 70%&color=#ffffff&position=center
 
