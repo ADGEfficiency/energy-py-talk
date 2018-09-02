@@ -2,9 +2,11 @@
 <br><br>
 lessons learnt building an energy reinforcement learning library
 <br><br>
-www.adgefficiency.com
+
+---
+blog at www.adgefficiency.com
 <br><br>
-Tempus Energy
+data scientist at Tempus Energy
 
 ---
 
