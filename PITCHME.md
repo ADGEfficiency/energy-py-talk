@@ -278,7 +278,7 @@ model based methods
 <br><br>
 integrating with `google/dopamine`
 
----?image=/assets/dopamine.png&size=auto 50%&color=#ffffff&position=center
+---?image=/assets/dopamine.png&size=auto 80%&color=#ffffff&position=center
 
 ---
 
