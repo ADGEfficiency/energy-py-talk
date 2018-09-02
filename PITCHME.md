@@ -20,7 +20,7 @@ lessons
 <br><br>
 next steps
 
----?image=/assets/humber.jpg&size=auto 100%
+---?image=/assets/humber.jpg&size=auto 100%&position=center
 
 Note:
 - two years ago I made the transition into data
@@ -28,7 +28,7 @@ Note:
 
 - this place was where I learnt energy engineering
 
----?image=/assets/humber_excel.png&size=auto 100%&color=#ffffff
+---?image=/assets/humber_excel.png&size=auto 100%&color=#ffffff&position=center
 
 Note:
 - the reason i introduce this place is because of the MILP model I built to optimize this site
@@ -41,7 +41,7 @@ computation to help solve the **control** problem
 <br><br>
 computation to help solve the **climate** problem
 
----?image=/assets/climate.png&size=auto 80%&color=#ffffff
+---?image=/assets/climate.png&size=auto 80%&color=#ffffff&position=center
 
 Note:
 
