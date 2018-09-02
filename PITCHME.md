@@ -205,7 +205,7 @@ sample inefficient
 
 the environment model problem / opportunity
 
----?image=/assets/env_model.png&size=auto 50%&color=#ffffff&position=center
+---?image=/assets/env_model.png&size=auto 30%&color=#ffffff&position=center
 
 Note:
 - modern rl so sample inefficient that you need simualtion
