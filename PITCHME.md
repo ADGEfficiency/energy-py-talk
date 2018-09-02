@@ -74,7 +74,7 @@ Note:
 
 ---
 
----?image=/assets/flex_env.png&size=auto 80%&color=#ffffff
+---?image=/assets/flex_env.png&size=auto 80%&color=#ffffff&position=center
 
 Note:
 - state = current + forecast electricity prices, customer demands
@@ -82,7 +82,7 @@ Note:
 - reward = cost to supply electricity
 - well defined reward signal
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff
+---?image=/assets/repo.png&size=auto 100%&color=#ffffff&position=center
 
 ---
 
@@ -129,8 +129,6 @@ with tf.Session() as sess:
         batch_size=1024,
     )
 ```
-
----?image=/assets/tb.png&size=auto 80%&color=#ffffff
 
 ---?image=/assets/cartpole.png&size=auto 80%&color=#ffffff&position=bottom
 
@@ -209,9 +207,9 @@ sample inefficient
 
 ---
 
-the environment model problem / oppourtunity
+the environment model problem / opportunity
 
-PUT IN BIT ABOUT WHAT A MODEL IS sa -> r, s'
+---?image=/assets/env_model.png&size=auto 80%&color=#ffffff&position=bottom
 
 Note:
 - modern rl so sample inefficient that you need simualtion
