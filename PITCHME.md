@@ -219,7 +219,7 @@ but if you have simulation, then there are other better models such as MCTS
 
 - Backwards induction = Allows measuring the quality of forecasts (when the model is wrong)
 
----?image=/assets/mcts_dqn.png&size=auto 80%&color=#ffffff
+---?image=/assets/mcts_dqn.png&size=auto 80%&color=#ffffff&position=center
 
 Note:
 - UCT = upper confidence bound applied to trees
@@ -256,7 +256,10 @@ Note:
 - these synthetic rollouts allow testing of performance of the agent on rollouts it's never seen
 - generating exact customer profiles is hard - generating believable profiles is easier
 
----?image=/assets/syn.png&size=auto 50%&color=#ffffff
+---?image=/assets/world_models.png&size=auto 50%&color=#ffffff&position=center
+
+
+---?image=/assets/syn.png&size=auto 50%&color=#ffffff&position=center
 
 ---
 
