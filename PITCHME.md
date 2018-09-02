@@ -2,7 +2,7 @@
 <br><br>
 lessons learnt building an energy reinforcement learning library
 <br><br>
-adgefficiency.com
+www.adgefficiency.com
 
 ---
 
@@ -33,13 +33,15 @@ Note:
 
 ---
 
-computation to help solve the control problem
-
-computation to help solve the climate problem
+computation to help solve the **control** problem
+<br><br>
+computation to help solve the **climate** problem
 
 ---?image=/assets/climate.png&size=auto 80%&color=#ffffff
 
 Note:
+
+Today control is done using heuristics and rules.  Give example of price of biomass versus gas fired CHP (red duos).
 
 1. it's bad - and worse for poor countries
 2. technology is not the only solution - business models, policy, public opinion
@@ -64,12 +66,7 @@ Note:
 - responding to price (not signal from system operator)
 - need wholesale market
 
----
-
-flexibility as an MDP (pic)
-
-also use to introduce the basic MDP framework (maximizing scalra reward etc, put in the MDP tuple too!)
-
+---?image=/assets/mdp.png&size=auto 80%&color=#ffffff
 
 ---
 
