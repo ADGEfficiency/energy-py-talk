@@ -260,8 +260,6 @@ Note:
 - these synthetic rollouts allow testing of performance of the agent on rollouts it's never seen
 - generating exact customer profiles is hard - generating believable profiles is easier
 
-
-Note:
 - noiser dreams = better performance on real env
 - prevents agent taking advantage of the generated env
 - moving to the cleaner real world is easy for agents that have had to deal with nightmares
