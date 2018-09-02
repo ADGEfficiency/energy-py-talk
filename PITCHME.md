@@ -250,6 +250,8 @@ for step in steps[::-1]:
 
 ---?image=/assets/world_models.png&size=auto 50%&color=#ffffff&position=center
 
+---
+
 synthetic data - aka poor mans GANS
 
 Note:
