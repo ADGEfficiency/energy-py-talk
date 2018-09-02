@@ -130,7 +130,7 @@ with tf.Session() as sess:
 
 ---
 
-Performance on Cartpole
+Fun with Cartpole
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
@@ -277,6 +277,8 @@ wrapping other environments
 model based methods 
 <br><br>
 integrating with `google/dopamine`
+
+---?image=/assets/dopamine.png&size=auto 50%&color=#ffffff&position=center
 
 ---
 
