@@ -72,8 +72,6 @@ Note:
 
 ---?image=/assets/mdp.png&size=auto 80%&color=#ffffff&position=center
 
----
-
 ---?image=/assets/flex_env.png&size=auto 80%&color=#ffffff&position=center
 
 Note:
@@ -82,7 +80,7 @@ Note:
 - reward = cost to supply electricity
 - well defined reward signal
 
----?image=/assets/repo.png&size=auto 100%&color=#ffffff&position=center
+---?image=/assets/repo.png&size=auto 80%&color=#ffffff&position=center
 
 ---
 
@@ -130,11 +128,9 @@ with tf.Session() as sess:
     )
 ```
 
----?image=/assets/cartpole.png&size=auto 80%&color=#ffffff&position=bottom
+---
 
-@snap[north]
-<font color="black">Performance on Cartpole</font>
-@snapend
+Performance on Cartpole
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
