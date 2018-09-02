@@ -70,7 +70,7 @@ Note:
 - responding to price (not signal from system operator)
 - need wholesale market
 
----?image=/assets/mdp.png&size=auto 80%&color=#ffffff
+---?image=/assets/mdp.png&size=auto 80%&color=#ffffff&position=center
 
 ---
 
