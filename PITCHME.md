@@ -264,11 +264,12 @@ Note:
 - these synthetic rollouts allow testing of performance of the agent on rollouts it's never seen
 - generating exact customer profiles is hard - generating believable profiles is easier
 
+- use parameter tau to make the dream env more or less noisy
 - noiser dreams = better performance on real env
 - prevents agent taking advantage of the generated env
 - moving to the cleaner real world is easy for agents that have had to deal with nightmares
 
----?image=/assets/syn.png&size=auto 50%&color=#ffffff&position=center
+---?image=/assets/syn.png&size=auto 40%&color=#ffffff&position=center
 
 ---
 
