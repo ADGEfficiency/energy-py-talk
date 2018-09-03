@@ -7,7 +7,7 @@ lessons learnt building an energy reinforcement learning library
 
 4 years energy engineer @ **ENGIE**
 <br><br>
-graduate & 2 years [teaching reinforcement learning](https://github.com/ADGEfficiency/dsr_rl) @ **Data Science Retreat**
+graduate & 2 years teaching reinforcement learning @ **Data Science Retreat**
 <br><br>
 data scientist @ **Tempus Energy**
 <br><br>
@@ -234,7 +234,8 @@ backwards induction
 previous_state_payoffs = {state: 0 for state in model.states}
 
 for step in steps[::-1]:
-    viable_transitions = [get_viable_transitions(step, next_state, model) for next_state in model.states]
+    viable_transitions = [get_viable_transitions(step, next_state, model) 
+                          for next_state in model.states]
     
     new_state_payoffs = defaultdict(list)
     
@@ -247,13 +248,6 @@ for step in steps[::-1]:
     
     previous_state_payoffs = new_state_payoffs
 ```
-
----?image=/assets/world_models_lit.png&size=auto 50%&color=#ffffff&position=center
-
----?image=/assets/world_models_env.png&size=auto 70%&color=#ffffff&position=center
-
----?image=/assets/world_models.png&size=auto 70%&color=#ffffff&position=center
-
 ---
 
 synthetic data - aka poor mans GANS
@@ -269,9 +263,17 @@ Note:
 - prevents agent taking advantage of the generated env
 - moving to the cleaner real world is easy for agents that have had to deal with nightmares
 
+
+---?image=/assets/world_models_lit.png&size=auto 50%&color=#ffffff&position=center
+
+---?image=/assets/world_models_env.png&size=auto 70%&color=#ffffff&position=center
+
+---?image=/assets/world_models.png&size=auto 70%&color=#ffffff&position=center
+
 ---?image=/assets/syn.png&size=auto 40%&color=#ffffff&position=center
 
 ---
+
 
 **long term work**
 <br><br>
