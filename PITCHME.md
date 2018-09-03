@@ -7,9 +7,9 @@ lessons learnt building an energy reinforcement learning library
 
 4 years energy engineer @ **ENGIE**
 <br><br>
-graduate & 2 years teaching reinforcement learning @ **Data Science Retreat**
+graduate & 2 years [teaching reinforcement learning](https://github.com/ADGEfficiency/dsr_rl) @ **Data Science Retreat**
 <br><br>
-data scientist @ **Tempus Energy** - decarbonizing electricity systems
+data scientist @ **Tempus Energy**
 <br><br>
 blog at [www.adgefficiency.com](www.adgefficiency.com)
 
@@ -135,7 +135,7 @@ with tf.Session() as sess:
 
 ---
 
-fun with Cartpole
+fun with cartpole
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
