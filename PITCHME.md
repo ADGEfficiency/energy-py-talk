@@ -145,7 +145,7 @@ fun with Cartpole
 
 ---
 
-details
+details - space design
 
 Note:
 - two bad implementations don't equal one good one
