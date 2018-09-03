@@ -85,7 +85,7 @@ Note:
 - reward = cost to supply electricity
 - well defined reward signal
 
----?image=/assets/repo.png&size=auto 80%&color=#ffffff&position=center
+---?image=/assets/repo.png&size=auto 60%&color=#ffffff&position=center
 
 ---
 
