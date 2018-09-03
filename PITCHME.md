@@ -135,12 +135,12 @@ with tf.Session() as sess:
 
 ---
 
-Fun with Cartpole
+fun with Cartpole
 
 ---?image=/assets/battery.png&size=auto 80%&color=#ffffff&position=bottom
 
 @snap[north]
-<font color="black">Battery storage</font>
+<font color="black">battery storage</font>
 @snapend
 
 ---
