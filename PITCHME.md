@@ -190,7 +190,7 @@ for step in steps[::-1]:
 
 synthetic data - aka poor mans GANS
 
----?image=/assets/world_models_lit.png&size=auto 50%&color=#ffffff&position=center
+---?image=/assets/world_models_lit.png&size=auto 30%&color=#ffffff&position=center
 
 ---?image=/assets/world_models_env.png&size=auto 70%&color=#ffffff&position=center
 
