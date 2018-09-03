@@ -5,8 +5,7 @@ lessons learnt building an energy reinforcement learning library
 
 ---
 
-4 years energy engineer @ **ENGIE** 
-- gas turbines & gas engines
+4 years energy engineer @ **ENGIE**
 <br><br>
 graduate & 2 years teaching reinforcement learning @ **Data Science Retreat**
 <br><br>
