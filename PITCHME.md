@@ -4,9 +4,14 @@ lessons learnt building an energy reinforcement learning library
 <br><br>
 
 ---
-blog at www.adgefficiency.com
+
+4 years energy engineer @ ENGIE - gas turbines & gas engines
 <br><br>
-data scientist at Tempus Energy
+graduate & 2 years teaching reinforcement learning @ Data Science Retreat
+<br><br>
+data scientist @ Tempus Energy - decarbonizing electricity systems
+<br><br>
+blog at [www.adgefficiency.com](www.adgefficiency.com)
 
 ---
 
