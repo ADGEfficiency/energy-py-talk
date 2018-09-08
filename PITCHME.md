@@ -1,4 +1,4 @@
-**energy_py**
+**energypy**
 <br><br>
 lessons learnt building an energy reinforcement learning library
 <br><br>
@@ -62,7 +62,7 @@ tools for experimentation
 High level API
 
 ```bash
-$ cd energy_py/experiments
+$ cd energypy/experiments
 
 $ python experiment.py example dqn
 
@@ -73,16 +73,16 @@ $ tensorboard --logdir='./results/example/tensorboard'
 Low level API
 
 ```python
-import energy_py
+import energypy
 
 with tf.Session() as sess:
-    env = energy_py.make_env(
+    env = energypy.make_env(
         env_id='battery',
         episode_length=288,
         dataset='example'
     )
 
-    agent = energy_py.make_agent(
+    agent = energypy.make_agent(
         sess=sess,
         agent_id='dqn',
         env=env,
